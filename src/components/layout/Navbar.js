@@ -36,11 +36,12 @@ const NavBar = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#link">About Us</Nav.Link>
-                            <Nav.Link href="#link">Blog</Nav.Link>
-                            <NavDropdown title="Contact" id="basic-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Find Jobs</NavDropdown.Item>
+                            <Nav.Link href="/">Home</Nav.Link>
+                            <Nav.Link href="/about">About Us</Nav.Link>
+                            <Nav.Link href="/blog">Blog</Nav.Link>
+                            <Nav.Link href="/contact"></Nav.Link>
+                            <NavDropdown title="Contact"  id="basic-nav-dropdown">
+                                <NavDropdown.Item href="/contact">Find Jobs</NavDropdown.Item>
                             </NavDropdown>
                         </Nav>
 

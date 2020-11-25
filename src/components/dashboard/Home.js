@@ -1,10 +1,11 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
+import { } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ControlledCarousel from './Carousel';
 const Home = () => {
     return ( 
         <div className ="container">
-           <Button>Test</Button>
+           <ControlledCarousel/>
         </div>
      );
 }
