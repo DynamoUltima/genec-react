@@ -10,23 +10,26 @@ import "materialize-css/dist/css/materialize.min.css";
 class CarouselSpecial extends Component {
 
     componentDidMount() {
-        const options = {
-            duration: 20,
-            fullWidth: true,
-            indicators: true,
-            dragged:true
-        };
+        
         // M.Carousel.init(options);
         // M.AutoInit()
 
-        document.addEventListener('DOMContentLoaded', function () {
+
+        // document.addEventListener('DOMContentLoaded', function () {
+            const options = {
+                duration: 20,
+                fullWidth: true,
+                indicators: true,
+                dragged: true
+            };
+
             var elems = document.querySelectorAll('.carousel');
-           var instance = M.Carousel.init(elems, options);
-            instance.shift(0)
+             M.Carousel.init(elems, options);
+            // instance.shift(0)
+            
             M.AutoInit()
 
-
-        });
+        // });
 
 
 
@@ -35,12 +38,12 @@ class CarouselSpecial extends Component {
     render() {
         return (
 
-
-            <div className="carousel carousel-slider center no-autoinit">
+            
+            <div  className="carousel carousel-slider center no-autoinit" >
                 <div className="carousel-fixed-item center">
                     <a href="/" className="btn waves-effect red darken-1 white-text darken-text-2 ">Genec</a>
                 </div>
-               
+
                 <div className="carousel-item red white-text" href="#one!">
                     <img src={banner1} alt="carousel" />
                     <h2>First Panel</h2>

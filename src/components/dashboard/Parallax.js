@@ -26,7 +26,7 @@ const Parallax = () => {
                         <img src={parallaxImage1} alt="" class="responsive-img materialboxed" />
                     </div>
                     <div class="col s12 l6 offset-l1">
-                        <h2 class="indigo-text text-darken-4">Portraits</h2>
+                        <h2 class="indigo-text text-darken-4">Electrical Project Management</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ const Parallax = () => {
                         <img src={parallaxImage1} alt="" class="responsive-img materialboxed" />
                     </div>
                     <div class="col s12 l6 offset-l1 pull-l5 right-align">
-                        <h2 class="indigo-text text-darken-4">Cityscapes</h2>
+                        <h2 class="indigo-text text-darken-4">Installation of Air conditioning equipments</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at lacus congue, suscipit elit nec, tincidunt orci.</p>
                     </div>
                 </div>
